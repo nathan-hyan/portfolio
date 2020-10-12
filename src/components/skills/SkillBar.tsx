@@ -1,6 +1,5 @@
 import React from "react";
 import { ProgressBar } from "react-bootstrap";
-import { skills } from "./data";
 
 export default function SkillBar({
   skill,

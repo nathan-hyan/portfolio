@@ -3,3 +3,9 @@
   justify-content: $justify;
   align-items: center;
 }
+
+@mixin backgroundImage($url) {
+  background-image: url($url);
+  background-size: cover;
+  background-position: center;
+}

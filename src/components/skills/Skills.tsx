@@ -9,7 +9,12 @@ export default function Skills() {
     <Container fluid>
       <Row className="skills-screen">
         <Col className="highlighted">
-          <h1>Skills 🔧</h1>
+          <h1>
+            Skills{" "}
+            <span role="img" aria-label="wrench">
+              🔧
+            </span>
+          </h1>
         </Col>
         <Separator orientation="y" />
         <Col md="7" className="center-in-screen">

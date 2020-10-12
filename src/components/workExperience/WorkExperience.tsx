@@ -9,7 +9,12 @@ export default function WorkExperience() {
     <Container fluid>
       <Row className="work-experience-screen">
         <Col className="left-side">
-          <h1>work experience 👩‍🏭</h1>
+          <h1>
+            work experience{" "}
+            <span role="img" aria-label="worker">
+              👩‍🏭
+            </span>
+          </h1>
         </Col>
         <Separator orientation="y" />
         <Col className="highlighted">

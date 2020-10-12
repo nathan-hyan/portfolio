@@ -1,4 +1,7 @@
 .hero-screen {
+  @include backgroundImage(
+    "https://images.unsplash.com/photo-1558346648-9757f2fa4474?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+  );
   @include flexThis("center");
   text-align: center;
   height: 100vh;

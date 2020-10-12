@@ -4,7 +4,12 @@ import { workType } from "./data";
 export default function WorkDetail({ work }: { work: workType }) {
   return (
     <div className="work-detail bg-white p-3 rounded shadow my-3">
-      <h1 className="display-5">💿 {work.work}</h1>
+      <h1 className="display-5">
+        <span role="img" aria-label="Work">
+          💿
+        </span>{" "}
+        {work.work}
+      </h1>
       <small className="text-muted">{`${work.since.toUpperCase()} - ${work.to.toUpperCase()}`}</small>
       <p className="tech-list text-muted">
         {work.tech.join(" / ").toUpperCase()}

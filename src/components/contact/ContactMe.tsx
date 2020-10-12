@@ -10,19 +10,36 @@ export default function ContactMe() {
     <Container fluid>
       <Row className="contact-me-screen">
         <Col md="7" className="highlighted">
-          <Button className="w-75" variant="success">
+          <Button
+            href="https://wa.me/543816176275?text=Hello%20Exequiel!,%20i%27d%20like%20to%20talk%20to%20you%20about"
+            className="w-75"
+            variant="success"
+          >
             <FontAwesomeIcon icon={faWhatsapp} /> WhatsApp
           </Button>
-          <Button className="w-75" variant="danger">
+          <Button
+            href="mailto:exequiel@hyan.dev"
+            className="w-75"
+            variant="danger"
+          >
             <FontAwesomeIcon icon={faEnvelope} /> Mail
           </Button>
-          <Button className="w-75" variant="info">
+          <Button
+            href="https://www.linkedin.com/in/exequielm2048/"
+            className="w-75"
+            variant="info"
+          >
             <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
           </Button>
         </Col>
         <Separator orientation="y" />
         <Col>
-          <h1>Contact me! 👦</h1>
+          <h1>
+            Contact me!{" "}
+            <span role="img" aria-label="Boy">
+              👦
+            </span>
+          </h1>
         </Col>
       </Row>
     </Container>

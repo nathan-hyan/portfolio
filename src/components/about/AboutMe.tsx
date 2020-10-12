@@ -15,7 +15,12 @@ export default function AboutMe() {
         <Separator orientation="y" />
         <Col className="highlighted">
           <div className="p-5">
-            <h1>Hello There! 👋</h1>
+            <h1>
+              Hello There!{" "}
+              <span role="img" aria-label="Waving hand">
+                👋
+              </span>
+            </h1>
             <p className="lead">I'm Exequiel</p>
             <p>
               a 25 year-old fullstack web developer. i'm a curious guy who's

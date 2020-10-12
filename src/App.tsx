@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import AboutMe from "./components/about/AboutMe";
 import ContactMe from "./components/contact/ContactMe";
 import HeroScreen from "./components/hero/HeroScreen";
