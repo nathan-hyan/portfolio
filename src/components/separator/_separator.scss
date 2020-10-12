@@ -1,0 +1,15 @@
+.divider-y {
+  background: $dark-gray;
+  position: relative;
+  min-width: 1px !important;
+  padding: 0 5px;
+  height: 100vh;
+  margin: 0;
+  z-index: 999;
+}
+
+.divider-x {
+  width: 100vw !important;
+  padding: 5px 0;
+  background: $dark-gray;
+}

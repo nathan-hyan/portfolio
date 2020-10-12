@@ -1,0 +1,45 @@
+.hero-screen {
+  @include flexThis("center");
+  text-align: center;
+  height: 100vh;
+  color: white;
+
+  .highlighted {
+    @media (max-width: $phone-big) {
+      height: auto;
+      padding: 3rem 0;
+    }
+  }
+
+  .btn {
+    margin: 0.3rem 0;
+  }
+
+  .desktop {
+    display: block;
+    @media (max-width: $phone-big) {
+      display: none;
+    }
+  }
+
+  .phone {
+    display: none;
+    @media (max-width: $phone-big) {
+      display: block;
+      margin-bottom: 3rem;
+    }
+  }
+
+  h1 {
+    font-weight: bolder;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 4rem;
+  }
+}
+
+.row {
+  margin: 0 !important;
+}

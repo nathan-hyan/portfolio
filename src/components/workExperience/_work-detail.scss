@@ -1,0 +1,21 @@
+.work-detail {
+  h1 {
+    font-size: 24px !important;
+    margin: 0;
+  }
+
+  .lead {
+    font-size: 14px !important;
+    white-space: pre-wrap;
+  }
+
+  .tech-list {
+    font-size: 12px !important;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  &:nth-of-type(odd) {
+    text-align: right;
+  }
+}

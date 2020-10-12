@@ -1,44 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Resume - Exequiel Mleziva
 
-## Available Scripts
+## Experience
 
-In the project directory, you can run:
+RollingCode Studios _(10/2019 - PRESENT)_
 
-### `npm start`
+- Creation and development of web Apps for administration of students and payments in RollingCode School using MERN Stack.
+- Cab app “TaxiAr” using Ionic and Angular
+- Development of mobile app dedicated to greenhouses digital control using Ionic and React
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+TODO1 - 3handsolutions _(10/2019 - 03/2020)_
 
-### `npm test`
+- Development of mobile app for the firm Bancolombia using Outsystems platform
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+Freelance _(10/2019 - 03/2020)_
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Currently working on an invoice desktop app with real time signature capabilities using MERN Stack.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Languages
 
-### `npm run eject`
+1.  Spanish (Native)
+2.  English (Upper-Intermediate)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Agile Methodologies
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1.  Scrum
+2.  Git
+3.  Trello
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Programming Skills
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+- Node.js
+- Express
+- MongoDB
+- React.js
+- Next.js
 
-## Learn More
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Personal Web: [hyan.dev](https://hyan.dev)
+Phone: (+54) 3816176275
+Mail: [nathan.hyan2048@gmail.com](mailto:nathan.hyan2048@gmail.com)
+LinkedIn: [exequielm2048](https://www.linkedin.com/in/exequielm2048/)
