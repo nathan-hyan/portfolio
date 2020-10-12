@@ -48,6 +48,6 @@ Freelance _(10/2019 - 03/2020)_
 ## Contact
 
 Personal Web: [hyan.dev](https://hyan.dev)
-Phone: (+54) 3816176275
+Phone: [(+54) 3816176275](tel:3816176275)
 Mail: [nathan.hyan2048@gmail.com](mailto:nathan.hyan2048@gmail.com)
 LinkedIn: [exequielm2048](https://www.linkedin.com/in/exequielm2048/)
