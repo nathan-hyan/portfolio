@@ -9,17 +9,17 @@ import WorkExperience from "./components/workExperience/WorkExperience";
 
 function App() {
   return (
-    <Container fluid>
+    <>
       <HeroScreen />
-      {/* <Separator orientation="x" /> */}
-      {/* <AboutMe /> */}
-      {/* <Separator orientation="x" /> */}
-      {/* <Skills /> */}
-      {/* <Separator orientation="x" /> */}
-      {/* <WorkExperience /> */}
-      {/* <Separator orientation="x" /> */}
-      {/* <ContactMe /> */}
-    </Container>
+      <Separator orientation="x" />
+      <AboutMe />
+      <Separator orientation="x" />
+      <Skills />
+      <Separator orientation="x" />
+      <WorkExperience />
+      <Separator orientation="x" />
+      <ContactMe />
+    </>
   );
 }
 

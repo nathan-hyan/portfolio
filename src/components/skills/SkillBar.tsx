@@ -10,7 +10,7 @@ export default function SkillBar({
   return (
     <div className="p-3 my-3 rounded shadow skill-bar">
       <p>{skill.name}</p>
-      <ProgressBar now={skill.percent} label={`${skill.percent} %`} />
+      <ProgressBar animated now={skill.percent} label={`${skill.percent} %`} />
     </div>
   );
 }

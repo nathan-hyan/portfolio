@@ -14,5 +14,15 @@ body {
 .container-fluid {
   padding: 0 !important;
   margin: 0 !important;
-  width: 100vw;
+  width: 98.9vw;
+}
+
+.center-in-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .row {
+    width: 100%;
+  }
 }
