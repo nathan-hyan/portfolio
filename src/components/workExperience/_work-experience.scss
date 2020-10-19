@@ -18,4 +18,19 @@
   .highlighted {
     color: black;
   }
+
+  @media (max-width: $phone-big) {
+    height: auto;
+    flex-direction: column;
+    padding: 3rem 0;
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 2rem;
+    }
+
+    .highlighted {
+      background: none;
+    }
+  }
 }

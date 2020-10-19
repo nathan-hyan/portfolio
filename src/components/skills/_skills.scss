@@ -5,6 +5,26 @@
     "https://images.unsplash.com/photo-1582738411706-bfc8e691d1c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
   );
   height: 100vh;
+
+  @media (max-width: $phone-big) {
+    height: auto;
+
+    .highlighted {
+      height: auto;
+      padding: 3rem 0;
+    }
+
+    .center-in-screen {
+      padding-bottom: 3rem;
+      display: flex;
+      justify-content: center !important;
+      flex-direction: column;
+      background-color: rgba($accent, 0.8);
+      height: 100%;
+      color: white;
+    }
+  }
+
   text-align: center;
   h1 {
     font-weight: bolder;

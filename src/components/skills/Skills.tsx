@@ -19,26 +19,26 @@ export default function Skills() {
         <Separator orientation="y" />
         <Col md="7" className="center-in-screen">
           <Row>
-            <Col>
+            <Col sm="12" md="6">
               <SkillBar skill={skills[0]} />
             </Col>
-            <Col>
+            <Col sm="12" md="6">
               <SkillBar skill={skills[3]} />
             </Col>
           </Row>
           <Row>
-            <Col>
+            <Col sm="12" md="6">
               <SkillBar skill={skills[2]} />
             </Col>
-            <Col>
+            <Col sm="12" md="6">
               <SkillBar skill={skills[1]} />
             </Col>
           </Row>
           <Row>
-            <Col>
+            <Col sm="12" md="6">
               <SkillBar skill={skills[4]} />
             </Col>
-            <Col>
+            <Col sm="12" md="6">
               <SkillBar skill={skills[5]} />
             </Col>
           </Row>

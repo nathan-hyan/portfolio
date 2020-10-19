@@ -6,7 +6,7 @@ export default function AboutMe() {
   return (
     <Container fluid>
       <Row className="about-me">
-        <Col>
+        <Col className="image-profile">
           <Image
             src={`${process.env.PUBLIC_URL}/assets/img/sil.svg`}
             height={100}

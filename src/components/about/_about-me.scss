@@ -5,11 +5,36 @@
   height: 100vh;
   text-align: right;
 
-  img {
-    height: 96%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  @media (max-width: $phone-big) {
+    height: auto !important;
+    .highlighted {
+      padding: 0;
+      h1 {
+        font-size: 38px;
+      }
+
+      .lead {
+        font-weight: bolder;
+        font-size: 24px;
+        padding-bottom: 2rem;
+      }
+
+      p {
+        font-weight: bolder;
+        line-height: 1.9rem;
+      }
+    }
+  }
+  .image-profile {
+    @media (max-width: $phone-big) {
+      display: none;
+    }
+    img {
+      height: 96%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
   }
 
   h1 {

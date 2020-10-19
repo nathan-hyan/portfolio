@@ -5,6 +5,9 @@
   @include flexThis("center");
   text-align: center;
   height: 100vh;
+  @media (max-width: $phone-big) {
+    height: auto;
+  }
   color: white;
 
   .highlighted {
