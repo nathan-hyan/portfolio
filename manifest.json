@@ -1,6 +1,6 @@
 {
   "short_name": "Exequiel Mleziva Portfolio",
-  "name": "Portfolio",
+  "name": "Exequiel Mleziva || Front-end Web Developer",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#118ab2",
-  "background_color": "#ffffff"
+  "theme_color": "#355980",
+  "background_color": "#333333"
 }
