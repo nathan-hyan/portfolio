@@ -23,7 +23,7 @@ export default function HeroScreen() {
             <Col>
               <Button
                 className="w-100"
-                href={`${process.env.PUBLIC_URL}/assets/files/cv-exequiel-mleziva.pdf`}
+                href={`${process.env.PUBLIC_URL}/assets/files/resume.pdf`}
               >
                 <FontAwesomeIcon icon={faDownload} /> Download my resume
               </Button>

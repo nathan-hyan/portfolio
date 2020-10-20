@@ -9,7 +9,7 @@ export default function AboutMe() {
         <Col className="image-profile">
           <Image
             src={`${process.env.PUBLIC_URL}/assets/img/sil.svg`}
-            height={100}
+            // height={100}
           />
         </Col>
         <Separator orientation="y" />

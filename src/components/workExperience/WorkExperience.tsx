@@ -12,12 +12,12 @@ export default function WorkExperience() {
           <h1>
             work experience{" "}
             <span role="img" aria-label="worker">
-              👩‍🏭
+              👷
             </span>
           </h1>
         </Col>
         <Separator orientation="y" />
-        <Col className="highlighted">
+        <Col md="7" className="highlighted">
           {workExperience.map((work, index) => (
             <WorkDetail key={index} work={work} />
           ))}
