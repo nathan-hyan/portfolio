@@ -7,10 +7,7 @@ export default function AboutMe() {
     <Container fluid>
       <Row className="about-me">
         <Col className="image-profile">
-          <Image
-            src={`${process.env.PUBLIC_URL}/assets/img/sil.svg`}
-            // height={100}
-          />
+          <Image src={`${process.env.PUBLIC_URL}/assets/img/sil.svg`} />
         </Col>
         <Separator orientation="y" />
         <Col className="highlighted">
@@ -23,7 +20,7 @@ export default function AboutMe() {
             </h1>
             <p className="lead">I'm Exequiel</p>
             <p>
-              a 25 year-old fullstack web developer. i'm a curious guy who's
+              a 25 year-old front-end web developer. i'm a curious guy who's
               always experimenting with something new, thriving to learn new
               stuff everyday and trying to get the best of everything to do.
             </p>
