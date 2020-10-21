@@ -20,7 +20,7 @@ export default function AboutMe() {
             </h1>
             <p className="lead">I'm Exequiel</p>
             <p>
-              a 25 year-old front-end web developer. i'm a curious guy who's
+              A 25 year-old front-end web developer. I'm a curious guy who's
               always experimenting with something new, thriving to learn new
               stuff everyday and trying to get the best of everything to do.
             </p>

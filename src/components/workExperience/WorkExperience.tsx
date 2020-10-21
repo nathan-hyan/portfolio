@@ -10,7 +10,7 @@ export default function WorkExperience() {
       <Row className="work-experience-screen">
         <Col className="left-side">
           <h1>
-            work experience{" "}
+            Work experience{" "}
             <span role="img" aria-label="worker">
               👷
             </span>
