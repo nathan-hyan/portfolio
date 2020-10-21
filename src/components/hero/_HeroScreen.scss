@@ -36,7 +36,6 @@
     }
   }
 
-
   h2 {
     font-size: 18px;
     margin-bottom: 4rem;
@@ -45,4 +44,10 @@
 
 .row {
   margin: 0 !important;
+}
+
+@media (min-width: $largeDesktop) {
+  img {
+    height: 700px;
+  }
 }
