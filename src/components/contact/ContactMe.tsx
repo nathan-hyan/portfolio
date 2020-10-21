@@ -9,7 +9,7 @@ export default function ContactMe() {
   return (
     <Container fluid>
       <Row className="contact-me-screen">
-        <Col md="7" className="highlighted">
+        <Col md="7" xl="5" className="highlighted">
           <Button
             href="https://wa.me/543816176275?text=Hello%20Exequiel!,%20i%27d%20like%20to%20talk%20to%20you%20about"
             className="w-75"
