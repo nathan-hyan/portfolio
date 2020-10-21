@@ -4,7 +4,7 @@ import { workType } from "./data";
 export default function WorkDetail({ work }: { work: workType }) {
   return (
     <div className="work-detail bg-white p-3 rounded shadow my-3">
-      <h1 className="display-5">
+      <h1>
         <span role="img" aria-label="Work">
           💿
         </span>{" "}

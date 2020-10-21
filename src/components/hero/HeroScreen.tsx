@@ -19,9 +19,10 @@ export default function HeroScreen() {
           </div>
           <h1>Exequiel Mleziva</h1>
           <h2>Front-End Web Developer</h2>
-          <Row>
+          <Row className="pb-3">
             <Col>
               <Button
+                variant="info"
                 className="w-100"
                 href={`${process.env.PUBLIC_URL}/assets/files/resume.pdf`}
               >
@@ -30,13 +31,21 @@ export default function HeroScreen() {
             </Col>
           </Row>
           <Row>
-            <Col>
-              <Button className="w-100" href="https://gitlab.com/nathan-hyan">
+            <Col className="mr-3">
+              <Button
+                variant="info"
+                className="w-100"
+                href="https://gitlab.com/nathan-hyan"
+              >
                 <FontAwesomeIcon icon={faGitlab} /> Gitlab
               </Button>
             </Col>
             <Col>
-              <Button className="w-100" href="https://github.com/nathan-hyan">
+              <Button
+                variant="info"
+                className="w-100"
+                href="https://github.com/nathan-hyan"
+              >
                 <FontAwesomeIcon icon={faGithub} /> Github
               </Button>
             </Col>

@@ -24,4 +24,18 @@
       margin-top: 0 !important;
     }
   }
+
+  @media (min-width: $largeDesktop) {
+    h1 {
+      font-size: 2rem !important;
+    }
+
+    .lead {
+      font-size: 1.5rem !important;
+    }
+
+    small {
+      font-size: 1.1rem !important;
+    }
+  }
 }
