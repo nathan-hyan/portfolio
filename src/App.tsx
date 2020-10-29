@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import ReactGA from "react-ga";
 import AboutMe from "./components/about/AboutMe";
 import ContactMe from "./components/contact/ContactMe";
 import HeroScreen from "./components/hero/HeroScreen";
@@ -7,6 +8,11 @@ import Skills from "./components/skills/Skills";
 import WorkExperience from "./components/workExperience/WorkExperience";
 
 function App() {
+  useEffect(() => {
+    ReactGA.initialize("G-0YEQP989DF");
+    ReactGA.pageview("/");
+  });
+
   return (
     <>
       <HeroScreen />
