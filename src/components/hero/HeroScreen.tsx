@@ -4,8 +4,33 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import Separator from "../separator/Separator";
+import ReactGA from "react-ga";
 
 export default function HeroScreen() {
+  const handleButton = (button: string) => {
+    ReactGA.event({
+      category: "Button",
+      action: `Presionó el botón ${button}`,
+      label: "CONTACT_SITE",
+    });
+
+    switch (button) {
+      case "resume":
+        window.location.href = `${process.env.PUBLIC_URL}/assets/files/resume.pdf`;
+        break;
+
+      case "github":
+        window.location.href = `https://github.com/nathan-hyan`;
+        break;
+
+      case "gitlab":
+        window.location.href = `https://gitlab.com/nathan-hyan`;
+        break;
+    }
+
+    console.log("EVENT");
+  };
+
   return (
     <Container fluid>
       <Row className="hero-screen">
@@ -24,7 +49,7 @@ export default function HeroScreen() {
               <Button
                 variant="info"
                 className="w-100"
-                href={`${process.env.PUBLIC_URL}/assets/files/resume.pdf`}
+                onClick={() => handleButton("resume")}
               >
                 <FontAwesomeIcon icon={faDownload} /> Download my resume
               </Button>
@@ -35,7 +60,7 @@ export default function HeroScreen() {
               <Button
                 variant="info"
                 className="w-100"
-                href="https://gitlab.com/nathan-hyan"
+                onClick={() => handleButton("gitlab")}
               >
                 <FontAwesomeIcon icon={faGitlab} /> Gitlab
               </Button>
@@ -44,7 +69,7 @@ export default function HeroScreen() {
               <Button
                 variant="info"
                 className="w-100"
-                href="https://github.com/nathan-hyan"
+                onClick={() => handleButton("github")}
               >
                 <FontAwesomeIcon icon={faGithub} /> Github
               </Button>
