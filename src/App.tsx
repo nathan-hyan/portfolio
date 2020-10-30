@@ -9,8 +9,8 @@ import WorkExperience from "./components/workExperience/WorkExperience";
 
 function App() {
   useEffect(() => {
-    ReactGA.initialize("G-0YEQP989DF");
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.initialize("UA-181730786-1");
+    ReactGA.pageview("/");
   });
 
   return (
