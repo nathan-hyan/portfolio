@@ -1,7 +1,5 @@
 .contact-me-screen {
-  @include backgroundImage(
-    "https://images.unsplash.com/photo-1515549832467-8783363e19b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=282&q=80"
-  );
+  @include backgroundImage("/assets/img/background-3.webp");
   height: 100vh;
   text-align: center;
   @include flexThis("center");

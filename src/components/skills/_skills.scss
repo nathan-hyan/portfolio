@@ -1,9 +1,7 @@
 @import "./progress-bar";
 
 .skills-screen {
-  @include backgroundImage(
-    "https://images.unsplash.com/photo-1582738411706-bfc8e691d1c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
-  );
+  @include backgroundImage("/assets/img/background-1.webp");
   height: 100vh;
 
   @media (max-width: $phone-big) {
