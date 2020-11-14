@@ -5,6 +5,7 @@ import ContactMe from "./components/contact/ContactMe";
 import HeroScreen from "./components/hero/HeroScreen";
 import Separator from "./components/separator/Separator";
 import Skills from "./components/skills/Skills";
+import WorkExhibitor from "./components/workCarousel/WorkExhibitor";
 import WorkExperience from "./components/workExperience/WorkExperience";
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
       <AboutMe />
       <Separator orientation="x" />
       <Skills />
+      <Separator orientation="x" />
+      <WorkExhibitor />
       <Separator orientation="x" />
       <WorkExperience />
       <Separator orientation="x" />
