@@ -1,0 +1,41 @@
+@import "./components/WorkDetail/work-detail";
+
+.work-experience-screen {
+  @include backgroundImage("~assets/img/background-5.webp");
+  height: auto;
+  display: flex;
+  align-items: center;
+
+  .divider-y {
+    height: 100% !important;
+  }
+
+  .left-side {
+    h1 {
+      text-align: center;
+      color: black;
+    }
+  }
+
+  .highlighted {
+    padding: 3rem;
+    color: black;
+    background: none;
+    height: 100%;
+  }
+
+  @media (max-width: $phone-big) {
+    height: auto;
+    flex-direction: column;
+    padding: 3rem 0;
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 2rem;
+    }
+
+    .highlighted {
+      background: none;
+    }
+  }
+}
