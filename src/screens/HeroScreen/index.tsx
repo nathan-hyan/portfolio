@@ -17,7 +17,7 @@ const HeroScreen: React.FC = () => {
 
     switch (button) {
       case 'resume':
-        window.location.href = `${process.env.PUBLIC_URL}/assets/files/resume.pdf`;
+        window.location.href = `${process.env.PUBLIC_URL}/files/resume.pdf`;
         break;
 
       case 'github':
