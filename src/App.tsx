@@ -1,17 +1,17 @@
-import React, { useEffect } from "react";
-import ReactGA from "react-ga";
-import AboutMe from "./components/about/AboutMe";
-import ContactMe from "./components/contact/ContactMe";
-import HeroScreen from "./components/hero/HeroScreen";
-import Separator from "./components/separator/Separator";
-import Skills from "./components/skills/Skills";
-import WorkExhibitor from "./components/workCarousel/WorkExhibitor";
-import WorkExperience from "./components/workExperience/WorkExperience";
+import React, { useEffect } from 'react';
+import ReactGA from 'react-ga';
+import AboutMe from 'screens/AboutMe';
+import ContactMe from 'screens/ContactMe';
+import HeroScreen from 'screens/HeroScreen';
+import Separator from 'screens/Separator';
+import Skills from 'screens/Skills';
+import WorkCarousel from 'screens/WorkCarousel';
+import WorkExperience from 'screens/WorkExperience';
 
-function App() {
+const App: React.FC = () => {
   useEffect(() => {
-    ReactGA.initialize("UA-181730786-1");
-    ReactGA.pageview("/");
+    ReactGA.initialize('UA-181730786-1');
+    ReactGA.pageview('/');
   });
 
   return (
@@ -22,13 +22,13 @@ function App() {
       <Separator orientation="x" />
       <Skills />
       <Separator orientation="x" />
-      <WorkExhibitor />
+      <WorkCarousel />
       <Separator orientation="x" />
       <WorkExperience />
       <Separator orientation="x" />
       <ContactMe />
     </>
   );
-}
+};
 
 export default App;

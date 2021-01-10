@@ -1,0 +1,36 @@
+@import "scss/mixins.scss";
+@import "scss/variables.scss";
+
+.contact-me-screen {
+  @include backgroundImage("~assets/img/background-3.webp");
+  height: 100vh;
+  text-align: center;
+  @include flexThis("center");
+
+  h1 {
+    color: black;
+  }
+
+  .highlighted {
+    @include flexThis("center");
+
+    .btn {
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media (max-width: $phone-big) {
+    height: auto !important;
+    flex-direction: column-reverse;
+    padding: 3rem 0;
+
+    h1 {
+      padding-bottom: 3rem;
+    }
+
+    .highlighted {
+      height: auto !important;
+      background: none;
+    }
+  }
+}
