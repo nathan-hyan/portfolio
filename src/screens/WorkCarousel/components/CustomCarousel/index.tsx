@@ -6,6 +6,8 @@ import { Button, Carousel } from 'react-bootstrap';
 import { carouselType } from '../../constants';
 import TechIcon from '../TechIcon';
 
+import styles from './styles.module.scss';
+
 type Props = {
   data: carouselType[];
 };
@@ -15,20 +17,10 @@ const CustomCarousel: React.FC<Props> = ({ data }: Props) => (
     {data.map((item) => (
       <Carousel.Item key={item.id}>
         <div
-          style={{
-            width: '100vw',
-            height: '500px',
-            backgroundImage: `url(${item.image})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-          }}
+          className={styles.container}
+          style={{ backgroundImage: `url(${item.image})` }}
         />
-        <Carousel.Caption
-          className="mb-5 rounded"
-          style={{
-            background: 'rgba(0, 0, 0, 0.8)',
-          }}
-        >
+        <Carousel.Caption className={`${styles.caption} mb-5 rounded`}>
           <h3>{item.title}</h3>
           <small>{item.subtitle}</small>
           <br />

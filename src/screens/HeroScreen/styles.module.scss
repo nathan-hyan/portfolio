@@ -1,9 +1,9 @@
 @import 'scss/mixins';
 @import 'scss/variables';
 
-.hero-screen {
-  @include backgroundImage("~assets/img/background-4.webp");
-  @include flexThis("center");
+.hero {
+  @include backgroundImage('~assets/img/background-4.webp');
+  @include flexThis('center');
   text-align: center;
   height: 100vh;
   @media (max-width: $phone-big) {
@@ -37,7 +37,7 @@
     }
   }
 
-  h2 {
+  .h2 {
     font-size: 18px;
     margin-bottom: 4rem;
   }
@@ -48,7 +48,7 @@
 }
 
 @media (min-width: $largeDesktop) {
-  img {
+  .image {
     height: 700px;
   }
 }

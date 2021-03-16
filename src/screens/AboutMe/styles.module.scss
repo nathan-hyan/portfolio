@@ -1,0 +1,53 @@
+@import 'scss/mixins';
+@import 'scss/variables';
+
+.about-me {
+  @include backgroundImage('~assets/img/background-2.webp');
+  height: 100vh;
+  text-align: right;
+
+  @media (max-width: $phone-big) {
+    height: auto !important;
+  }
+}
+
+.highlighted {
+  @media (max-width: $phone-big) {
+    padding: 0;
+  }
+}
+
+.h1 {
+  @media (max-width: $phone-big) {
+    font-size: 38px;
+  }
+}
+
+.lead {
+  @media (max-width: $phone-big) {
+    font-weight: bolder;
+    font-size: 24px;
+    padding-bottom: 2rem;
+  }
+}
+
+.p {
+  @media (max-width: $phone-big) {
+    font-weight: bolder;
+    line-height: 1.9rem;
+  }
+}
+
+.profile {
+  width: 100% !important;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+
+  @media (min-width: $phone) and (max-width: $phone-big) {
+    display: none;
+  }
+}
+
+

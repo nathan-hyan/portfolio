@@ -6,6 +6,7 @@ import { Button, Col, Container, Image, Row } from 'react-bootstrap';
 import ReactGA from 'react-ga';
 import profile from 'assets/img/profile.webp';
 import Separator from '../Separator';
+import styles from './styles.module.scss';
 
 const HeroScreen: React.FC = () => {
   const handleButton = (button: string) => {
@@ -32,14 +33,19 @@ const HeroScreen: React.FC = () => {
 
   return (
     <Container fluid>
-      <Row className="hero-screen">
-        <Col md="5" className="highlighted">
-          <div className="phone">
-            <Image roundedCircle height={300} src={profile} />
+      <Row className={`${styles.hero} ${styles.row}`}>
+        <Col md="5" className={`${styles.highlighted} highlighted`}>
+          <div className={styles.phone}>
+            <Image
+              className={styles.image}
+              roundedCircle
+              height={300}
+              src={profile}
+            />
           </div>
           <h1>Exequiel Mleziva</h1>
-          <h2>Front-End Web Developer</h2>
-          <Row className="pb-3">
+          <h2 className={styles.h2}> Front-End Web Developer</h2>
+          <Row className={`${styles.row} pb-3`}>
             <Col>
               <Button
                 variant="info"
@@ -50,7 +56,7 @@ const HeroScreen: React.FC = () => {
               </Button>
             </Col>
           </Row>
-          <Row>
+          <Row className={styles.row}>
             <Col className="mr-3">
               <Button
                 variant="info"
@@ -72,8 +78,13 @@ const HeroScreen: React.FC = () => {
           </Row>
         </Col>
         <Separator orientation="y" />
-        <Col className="desktop">
-          <Image className="shadow" roundedCircle height={300} src={profile} />
+        <Col className={styles.desktop}>
+          <Image
+            className={`${styles.image} shadow`}
+            roundedCircle
+            height={300}
+            src={profile}
+          />
         </Col>
       </Row>
     </Container>

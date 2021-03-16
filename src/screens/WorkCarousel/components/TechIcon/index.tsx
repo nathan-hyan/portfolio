@@ -10,6 +10,8 @@ import mongodb from 'assets/tech/mongodb.svg';
 import express from 'assets/tech/express.webp';
 import nodejs from 'assets/tech/nodejs.webp';
 
+import styles from './styles.module.scss';
+
 type Props = {
   tech: Partial<
     | 'react'
@@ -26,39 +28,37 @@ type Props = {
 };
 
 const TechIcon: React.FC<Props> = ({ tech }: Props) => {
-  const translator = (height: number) => {
+  const translator = (): string => {
     switch (tech) {
       case 'react':
-        return <img src={react} height={height} alt={tech} className="mx-2" />;
+        return react;
       case 'html':
-        return <img src={html} height={height} alt={tech} className="mx-2" />;
+        return html;
       case 'css':
-        return <img src={css} height={height} alt={tech} className="mx-2" />;
+        return css;
       case 'javascript':
-        return <img src={js} height={height} alt={tech} className="mx-2" />;
+        return js;
       case 'typescript':
-        return <img src={ts} height={height} alt={tech} className="mx-2" />;
+        return ts;
       case 'nextjs':
-        return <img src={nextjs} height={height} alt={tech} className="mx-2" />;
+        return nextjs;
       case 'scss':
-        return <img src={scss} height={height} alt={tech} className="mx-2" />;
+        return scss;
       case 'mongodb':
-        return (
-          <img src={mongodb} height={height} alt={tech} className="mx-2" />
-        );
+        return mongodb;
       case 'express':
-        return (
-          <img src={express} height={height} alt={tech} className="mx-2" />
-        );
+        return express;
       case 'nodejs':
-        return <img src={nodejs} height={height} alt={tech} className="mx-2" />;
+        return nodejs;
 
       default:
-        return <img src={react} height={height} alt={tech} className="mx-2" />;
+        return react;
     }
   };
 
-  return translator(50);
+  return (
+    <img src={translator()} alt={tech} className={`${styles.image} mx-2`} />
+  );
 };
 
 export default TechIcon;
