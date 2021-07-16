@@ -30,14 +30,16 @@ const CustomCarousel: React.FC<Props> = ({ data }: Props) => (
           ))}
           <br />
           <br />
-          {item.repo ? (
+          {item.repo && (
             <Button target="_blank" href={item.repo} variant="primary mr-3">
               <FontAwesomeIcon icon={faGitlab} /> Repository
             </Button>
-          ) : null}
-          <Button target="_blank" href={item.url} variant="secondary">
-            <FontAwesomeIcon icon={faGlobe} /> Visit page
-          </Button>
+          )}
+          {item.url && (
+            <Button target="_blank" href={item.url} variant="secondary">
+              <FontAwesomeIcon icon={faGlobe} /> Visit page
+            </Button>
+          )}
         </Carousel.Caption>
       </Carousel.Item>
     ))}

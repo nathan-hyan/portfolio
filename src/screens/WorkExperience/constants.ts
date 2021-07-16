@@ -2,8 +2,8 @@ export const WORK_EXPERIENCE: workType[] = [
   {
     id: 1,
     work: 'RollingCode Software Factory',
-    since: '10/2019',
-    to: 'present',
+    since: '04/2018',
+    to: '01/2021',
     tech: [
       'html',
       'css',
@@ -20,7 +20,7 @@ export const WORK_EXPERIENCE: workType[] = [
   {
     id: 2,
     work: '3HandSolutions / TODO1',
-    since: '01/2020',
+    since: '10/2019',
     to: '03/2020',
     tech: ['html', 'css', 'javascript', 'outsystems'],
     description:
@@ -28,16 +28,24 @@ export const WORK_EXPERIENCE: workType[] = [
   },
   {
     id: 3,
-    work: 'Freelancing',
-    since: '10/2018',
+    work: 'Wolox',
+    since: '11/2020',
     to: 'present',
+    tech: ['html', 'css', 'scss', 'javascript', 'react', 'react-native'],
+    description:
+      'Created an invoice desktop app with real time signature capabilities using MERN Stack.\nLanding page for a new real estate agency (yet unpublished).\nCurrently working on a store for a independent leather workshop',
+  },
+  {
+    id: 4,
+    work: 'Freelancing',
+    since: '-',
+    to: '-',
     tech: [
       'html',
       'css',
       'scss',
       'javascript',
       'react',
-      'ionic',
       'nextjs',
       'nodejs',
       'mongodb',

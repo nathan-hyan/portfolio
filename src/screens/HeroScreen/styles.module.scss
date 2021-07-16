@@ -12,6 +12,7 @@
   color: white;
 
   .highlighted {
+    height: 100%;
     @media (max-width: $phone-big) {
       height: auto;
       padding: 3rem 0;

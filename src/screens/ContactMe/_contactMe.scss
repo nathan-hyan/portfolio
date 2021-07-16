@@ -12,6 +12,7 @@
   }
 
   .highlighted {
+    height: 100%;
     @include flexThis("center");
 
     .btn {

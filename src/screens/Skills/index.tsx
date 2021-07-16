@@ -22,7 +22,7 @@ const Skills: React.FC = () => (
             <SkillBar skill={SKILLS[0]} />
           </Col>
           <Col sm="12" md="6">
-            <SkillBar skill={SKILLS[3]} />
+            <SkillBar skill={SKILLS[1]} />
           </Col>
         </Row>
         <Row>
@@ -30,15 +30,7 @@ const Skills: React.FC = () => (
             <SkillBar skill={SKILLS[2]} />
           </Col>
           <Col sm="12" md="6">
-            <SkillBar skill={SKILLS[1]} />
-          </Col>
-        </Row>
-        <Row>
-          <Col sm="12" md="6">
-            <SkillBar skill={SKILLS[4]} />
-          </Col>
-          <Col sm="12" md="6">
-            <SkillBar skill={SKILLS[5]} />
+            <SkillBar skill={SKILLS[3]} />
           </Col>
         </Row>
       </Col>

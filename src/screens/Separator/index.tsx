@@ -1,10 +1,10 @@
 import React from 'react';
 
-type Props = {
+interface Props {
   orientation: 'y' | 'x';
-};
+}
 
-const Separator: React.FC<Props> = ({ orientation = 'y' }: Props) => {
+const Separator = ({ orientation = 'y' }: Props) => {
   const OUTPUT =
     orientation === 'y' ? (
       <div className="d-none d-md-block divider-y shadow" />

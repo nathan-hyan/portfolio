@@ -3,6 +3,8 @@ import invoxet from 'assets/workBackground/invoxet.webp';
 import socco from 'assets/workBackground/socco.webp';
 import moustrack from 'assets/workBackground/moustrack.webp';
 import reciba from 'assets/workBackground/reciba.webp';
+import wolf from 'assets/workBackground/wolf.png';
+import clefdium from 'assets/workBackground/clefdium.png';
 
 export const CAROUSEL_DATA: carouselType[] = [
   {
@@ -49,6 +51,22 @@ export const CAROUSEL_DATA: carouselType[] = [
     url: 'https://reciba.app/',
     tech: ['react', 'typescript', 'scss', 'mongodb', 'express', 'nodejs'],
   },
+  {
+    id: 6,
+    image: wolf,
+    title: 'Wolf',
+    subtitle: 'Artesanias en cuero',
+    tech: ['react', 'typescript', 'scss', 'mongodb', 'express', 'nodejs'],
+  },
+  {
+    id: 7,
+    image: clefdium,
+    title: 'Clefdium',
+    subtitle: 'Lading page dedicated to a real-state agency',
+    tech: ['react', 'typescript', 'scss'],
+    url: 'https://clefdium-test.herokuapp.com/',
+    repo: 'https://github.com/nathan-hyan/clefdium-webpage',
+  },
 ];
 
 export interface carouselType {
@@ -57,7 +75,7 @@ export interface carouselType {
   title: string;
   subtitle: string;
   repo?: string;
-  url: string;
+  url?: string;
   tech: Partial<
     | 'react'
     | 'html'
