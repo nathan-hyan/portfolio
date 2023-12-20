@@ -1,18 +1,18 @@
-import React, { useEffect } from 'react';
-import ReactGA from 'react-ga';
-import AboutMe from 'screens/AboutMe';
-import ContactMe from 'screens/ContactMe';
-import HeroScreen from 'screens/HeroScreen';
-import Separator from 'screens/Separator';
-import Skills from 'screens/Skills';
-import WorkCarousel from 'screens/WorkCarousel';
-import WorkExperience from 'screens/WorkExperience';
+import React, { useEffect } from 'react'
+import ReactGA from 'react-ga'
+import AboutMe from 'screens/AboutMe'
+import ContactMe from 'screens/ContactMe'
+import HeroScreen from 'screens/HeroScreen'
+import Separator from 'screens/Separator'
+import Skills from 'screens/Skills'
+import WorkCarousel from 'screens/WorkCarousel'
+import WorkExperience from 'screens/WorkExperience'
 
 const App: React.FC = () => {
   useEffect(() => {
-    ReactGA.initialize('UA-181730786-1');
-    ReactGA.pageview('/');
-  });
+    ReactGA.initialize('UA-181730786-1')
+    ReactGA.pageview('/')
+  })
 
   return (
     <>
@@ -28,7 +28,7 @@ const App: React.FC = () => {
       <Separator orientation="x" />
       <ContactMe />
     </>
-  );
-};
+  )
+}
 
-export default App;
+export default App

@@ -1,49 +1,36 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    es2021: true
   },
-
   extends: [
-    'plugin:prettier/recommended',
-    'plugin:react/recommended',
-    'airbnb',
-    'react-app',
-    'plugin:jsx-a11y/recommended',
-    'prettier/react',
+    'standard-with-typescript',
+    'plugin:react/recommended'
   ],
-
-  parser: '@typescript-eslint/parser',
-
+  overrides: [
+    {
+      env: {
+        node: true
+      },
+      files: [
+        '.eslintrc.{js,cjs}'
+      ],
+      parserOptions: {
+        sourceType: 'script'
+      }
+    }
+  ],
   parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 12,
-    sourceType: 'module',
+    ecmaVersion: 'latest',
+    sourceType: 'module'
+
   },
-
-  plugins: ['prettier', 'react', '@typescript-eslint'],
-
+  plugins: [
+    'react'
+  ],
   rules: {
-    'react/jsx-filename-extension': [
-      1,
-      { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
-    ],
-    'object-curly-newline': 0,
-    'no-use-before-define': 0,
-    'react/require-default-props': 0,
-    'import/prefer-default-export': 0,
-    'comma-dangle': 0,
-    'import/no-unresolved': [0, { caseSensitive: false }],
-    'import/extensions': 0,
-    'no-underscore-dangle': 0,
-    radix: 0,
-    'implicit-arrow-linebreak': 0,
-    'operator-linebreak': 0,
-    'function-paren-newline': 0,
-  },
-  settings: {
-    'import/resolver': 'webpack',
-  },
-};
+    '@typescript-eslint/explicit-function-return-type': 0,
+    'react/react-in-jsx-scope': 0,
+    '@typescript-eslint/triple-slash-reference': 0
+  }
+}

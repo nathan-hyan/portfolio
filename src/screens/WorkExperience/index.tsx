@@ -1,8 +1,8 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import Separator from '../Separator';
-import { WORK_EXPERIENCE } from './constants';
-import WorkDetail from './components/WorkDetail';
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import Separator from '../Separator'
+import { WORK_EXPERIENCE } from './constants'
+import WorkDetail from './components/WorkDetail'
 
 const WorkExperience: React.FC = () => (
   <Container fluid>
@@ -23,6 +23,6 @@ const WorkExperience: React.FC = () => (
       </Col>
     </Row>
   </Container>
-);
+)
 
-export default WorkExperience;
+export default WorkExperience
