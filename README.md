@@ -2,7 +2,7 @@
 
 ## Experience
 
-RollingCode Studios _(10/2019 - PRESENT)_
+RollingCode Studios _(10/2019 - 01/2020)_
 
 - Creation and development of web Apps for administration of students and payments in RollingCode School using MERN Stack.
 - Cab app “TaxiAr” using Ionic and Angular
