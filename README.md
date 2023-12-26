@@ -10,18 +10,6 @@ RollingCode Studios _(10/2019 - PRESENT)_
 
 ---
 
-TODO1 - 3handsolutions _(10/2019 - 03/2020)_
-
-- Development of mobile app for the firm Bancolombia using Outsystems platform
-
----
-
-Freelance _(10/2019 - 03/2020)_
-
-- Currently working on an invoice desktop app with real time signature capabilities using MERN Stack.
-
----
-
 ## Languages
 
 1.  Spanish (Native)
@@ -35,15 +23,9 @@ Freelance _(10/2019 - 03/2020)_
 
 ## Programming Skills
 
-- HTML
-- CSS
-- JavaScript
 - TypeScript
-- Node.js
-- Express
-- MongoDB
-- React.js
-- Next.js
+- React
+
 
 ## Contact
 
