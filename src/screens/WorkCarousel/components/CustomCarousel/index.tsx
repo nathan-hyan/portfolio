@@ -1,16 +1,16 @@
-import { faGitlab } from '@fortawesome/free-brands-svg-icons';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
-import { Button, Carousel } from 'react-bootstrap';
-import { carouselType } from '../../constants';
-import TechIcon from '../TechIcon';
+import { faGitlab } from '@fortawesome/free-brands-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react'
+import { Button, Carousel } from 'react-bootstrap'
+import { type carouselType } from '../../constants'
+import TechIcon from '../TechIcon'
 
-import styles from './styles.module.scss';
+import styles from './styles.module.scss'
 
-type Props = {
-  data: carouselType[];
-};
+interface Props {
+  data: carouselType[]
+}
 
 const CustomCarousel: React.FC<Props> = ({ data }: Props) => (
   <Carousel>
@@ -26,24 +26,28 @@ const CustomCarousel: React.FC<Props> = ({ data }: Props) => (
           <br />
           <br />
           {item.tech.map((tech) => (
-            <TechIcon tech={tech} />
+            <TechIcon tech={tech} key={tech}/>
           ))}
           <br />
           <br />
-          {item.repo && (
+          {(item.repo != null)
+            ? (
             <Button target="_blank" href={item.repo} variant="primary mr-3">
               <FontAwesomeIcon icon={faGitlab} /> Repository
             </Button>
-          )}
-          {item.url && (
+              )
+            : null}
+          {(item.url != null)
+            ? (
             <Button target="_blank" href={item.url} variant="secondary">
               <FontAwesomeIcon icon={faGlobe} /> Visit page
             </Button>
-          )}
+              )
+            : null}
         </Carousel.Caption>
       </Carousel.Item>
     ))}
   </Carousel>
-);
+)
 
-export default CustomCarousel;
+export default CustomCarousel

@@ -1,18 +1,18 @@
-import React from 'react';
-
 interface Props {
-  orientation: 'y' | 'x';
+  orientation: 'y' | 'x'
 }
 
 const Separator = ({ orientation = 'y' }: Props) => {
   const OUTPUT =
-    orientation === 'y' ? (
+    orientation === 'y'
+      ? (
       <div className="d-none d-md-block divider-y shadow" />
-    ) : (
+        )
+      : (
       <div className="divider-x shadow" />
-    );
+        )
 
-  return OUTPUT;
-};
+  return OUTPUT
+}
 
-export default Separator;
+export default Separator

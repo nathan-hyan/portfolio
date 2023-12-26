@@ -1,8 +1,8 @@
-import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import Separator from '../Separator';
-import { SKILLS } from './constants';
-import SkillBar from './components/SkillBar';
+import React from 'react'
+import { Col, Container, Row } from 'react-bootstrap'
+import Separator from '../Separator'
+import { SKILLS } from './constants'
+import SkillBar from './components/SkillBar'
 
 const Skills: React.FC = () => (
   <Container fluid>
@@ -36,6 +36,6 @@ const Skills: React.FC = () => (
       </Col>
     </Row>
   </Container>
-);
+)
 
-export default Skills;
+export default Skills

@@ -1,7 +1,7 @@
-import React from 'react';
-import { workType } from '../../constants';
+import React from 'react'
+import { type workType } from '../../constants'
 
-type Props = { work: workType };
+interface Props { work: workType }
 
 const WorkDetail: React.FC<Props> = ({ work }: Props) => (
   <div className="work-detail bg-white p-3 rounded shadow my-3">
@@ -17,6 +17,6 @@ const WorkDetail: React.FC<Props> = ({ work }: Props) => (
     </p>
     <p className="mt-3 lead">{work.description}</p>
   </div>
-);
+)
 
-export default WorkDetail;
+export default WorkDetail

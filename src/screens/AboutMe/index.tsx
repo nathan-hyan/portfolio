@@ -1,12 +1,12 @@
-import React from 'react';
-import { Col, Container, Image, Row } from 'react-bootstrap';
-import Separator from 'screens/Separator';
-import sillouhete from 'assets/sil.svg';
+import React from 'react'
+import { Col, Container, Image, Row } from 'react-bootstrap'
+import Separator from 'screens/Separator'
+import sillouhete from 'assets/sil.svg'
 
-import styles from './styles.module.scss';
+import styles from './styles.module.scss'
 
 const AboutMe: React.FC = () => {
-  const AGE = new Date().getFullYear() - 1995;
+  const AGE = new Date().getFullYear() - 1995
 
   return (
     <Container fluid>
@@ -34,7 +34,7 @@ const AboutMe: React.FC = () => {
         </Col>
       </Row>
     </Container>
-  );
-};
+  )
+}
 
-export default AboutMe;
+export default AboutMe

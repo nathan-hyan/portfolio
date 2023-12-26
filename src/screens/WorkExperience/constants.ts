@@ -12,10 +12,10 @@ export const WORK_EXPERIENCE: workType[] = [
       'react',
       'ionic',
       'nodejs',
-      'mongodb',
+      'mongodb'
     ],
     description:
-      'Creation and development of web Apps for administration of students and payments in RollingCode School using MERN Stack.\nCab app “TaxiAr” using Ionic and Angular.\nDevelopment of mobile app dedicated to greenhouses digital control using Ionic and React',
+      'Creation and development of web Apps for administration of students and payments in RollingCode School using MERN Stack.\nCab app “TaxiAr” using Ionic and Angular.\nDevelopment of mobile app dedicated to greenhouses digital control using Ionic and React'
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ export const WORK_EXPERIENCE: workType[] = [
     to: '03/2020',
     tech: ['html', 'css', 'javascript', 'outsystems'],
     description:
-      'Development of mobile app for the firm Bancolombia using Outsystems platform',
+      'Development of mobile app for the firm Bancolombia using Outsystems platform'
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ export const WORK_EXPERIENCE: workType[] = [
     to: 'present',
     tech: ['html', 'css', 'scss', 'javascript', 'react', 'react-native'],
     description:
-      'Created an invoice desktop app with real time signature capabilities using MERN Stack.\nLanding page for a new real estate agency (yet unpublished).\nCurrently working on a store for a independent leather workshop',
+      'Created an invoice desktop app with real time signature capabilities using MERN Stack.\nLanding page for a new real estate agency (yet unpublished).\nCurrently working on a store for a independent leather workshop'
   },
   {
     id: 4,
@@ -48,18 +48,18 @@ export const WORK_EXPERIENCE: workType[] = [
       'react',
       'nextjs',
       'nodejs',
-      'mongodb',
+      'mongodb'
     ],
     description:
-      'Currently working on an invoice desktop app with real time signature capabilities using MERN Stack',
-  },
-];
+      'Currently working on an invoice desktop app with real time signature capabilities using MERN Stack'
+  }
+]
 
 export interface workType {
-  id: number;
-  work: string;
-  since: string | 'present';
-  to: string | 'present';
-  tech: string[];
-  description: string;
+  id: number
+  work: string
+  since: string | 'present'
+  to: string | 'present'
+  tech: string[]
+  description: string
 }
